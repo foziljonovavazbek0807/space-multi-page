@@ -40,7 +40,7 @@
   border-radius: 4px;
   width: 80%;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 1.5rem;
   background-color: transparent;
   color: #fff;
   padding: 14px 20px;
@@ -48,7 +48,7 @@
   transition: all 0.3s ease-out;
 }
 
-.btn-wide {
+.btn--wide {
   padding: 12px 64px;
   font-size: 20px;
 }
@@ -57,14 +57,24 @@
 .btn--medium:hover,
 .btn--mobile:hover {
   transition: all 0.3s ease-out;
-  background-color: #fff;
+  background: #fff;
   color: #242424;
 }
 
-.btn-wide:hover {
+.btn--wide:hover {
   color: #fff;
   background-color: #f00946;
-  transition: all 0.3s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
 }
 
 .blue {
@@ -79,16 +89,6 @@
   border: none;
 }
 
-.green {
-  background-color: #25ce4a;
-  color: #fff;
-  border: none;
-}
-
-.green:hover {
-  background-color: #242424;
-}
-
 .primary {
   background-color: #242424;
   color: #fff;
@@ -99,4 +99,14 @@
   background-color: #fff;
   color: #242424;
   border: none;
+}
+
+.green {
+  background: #25ce4a;
+  color: #fff;
+  border: none;
+}
+
+.green:hover {
+  background-color: #242424;
 }
